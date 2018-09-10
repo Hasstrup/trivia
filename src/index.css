@@ -1,0 +1,61 @@
+body {
+    background: #263238
+}
+
+.App {
+    text-align: center
+}
+
+.cardContainer {
+    border: 1px solid black;
+    /* display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    height: 180px;
+    width: 20%;
+    background-color: #61DAFB;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+
+} */
+
+/* .showQuestion {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    height: 220px;
+    width: 300px;
+}
+
+/* .questionView {
+    background-color: #1e8bc3;
+    height: 100vh;
+    text-align: center;
+    
+} */
+
+.questionUl {
+    text-align: left;
+    width: 30vw;
+    margin: 0 auto
+}
+
+.questionLi {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25%;
+}
+
+.circle {
+    padding-top: 2px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: black;
+}
